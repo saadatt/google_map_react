@@ -1,10 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac7a74c5-7e19-45d3-85d1-2f0323fc1be5" name="Default Changelist" comment="updated setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/webdriverio.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XDSCND4tJNC7MyYbsOCX6L58Nc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Sadat_Projects\cra1\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sadat_Projects\cra1\src\images" />
+      <recent name="C:\Sadat_Projects\cra1\src\components" />
+      <recent name="C:\Sadat_Projects\cra1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac7a74c5-7e19-45d3-85d1-2f0323fc1be5" name="Default Changelist" comment="" />
+      <created>1580579043280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580579043280</updated>
+      <workItem from="1580579044539" duration="4203000" />
+      <workItem from="1580583269663" duration="5308000" />
+      <workItem from="1580657917134" duration="2165000" />
+      <workItem from="1580848889501" duration="2360000" />
+      <workItem from="1580851267198" duration="6769000" />
+      <workItem from="1580858174524" duration="1797000" />
+      <workItem from="1580859987905" duration="5657000" />
+      <workItem from="1580865682600" duration="1353000" />
+      <workItem from="1580867052136" duration="2166000" />
+      <workItem from="1580783194777" duration="5000" />
+      <workItem from="1580870995978" duration="607000" />
+      <workItem from="1581179619702" duration="31000" />
+      <workItem from="1581182324905" duration="7860000" />
+      <workItem from="1581364035499" duration="10000" />
+      <workItem from="1581786514949" duration="32000" />
+      <workItem from="1581786970015" duration="43000" />
+      <workItem from="1581787055219" duration="27000" />
+      <workItem from="1582141793035" duration="75000" />
+      <workItem from="1582153335723" duration="62000" />
+      <workItem from="1582578480698" duration="113000" />
+      <workItem from="1582584653324" duration="108000" />
+      <workItem from="1640530053542" duration="10861000" />
+      <workItem from="1640564359352" duration="18830000" />
+      <workItem from="1640733382704" duration="10476000" />
+      <workItem from="1641054773050" duration="29546000" />
+      <workItem from="1641513543573" duration="2847000" />
+      <workItem from="1587574312021" duration="1003000" />
+      <workItem from="1576796811441" duration="1714000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated file">
+      <created>1580868927111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580868927111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated file">
+      <created>1580869006716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580869006716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated setup">
+      <created>1587575060431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587575060432</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated setup">
+      <created>1587421181788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587421181788</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updated file" />
+    <MESSAGE value="updated setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated setup" />
   </component>
 </project>
