@@ -127,7 +127,69 @@ class LocationSearchModal extends React.Component {
     };
 
     onInfoWindowClose = (event) => { };
-    
+
+    onMarkerDragEnd = (event) => {
+        let newLat = event.latLng.lat(),
+            newLng = event.latLng.lng();
+
+        Geocode.fromLatLng(newLat, newLng).then(
+            response => {
+                const address = response.results[0].formatted_address,
+                    addressArray = response.results[0].address_components,
+                    city = this.getCity(addressArray),
+                    area = this.getArea(addressArray),
+                    state = this.getState(addressArray);
+                this.setState({
+                    address: (address) ? address : '',
+                    area: (area) ? area : '',
+                    city: (city) ? city : '',
+                    state: (state) ? state : '',
+                    markerPosition: {
+                        lat: newLat,
+                        lng: newLng
+                    },
+                    mapPosition: {
+                        lat: newLat,
+                        lng: newLng
+                    },
+                })
+            },
+            error => {
+                console.error(error);
+            }
+        );
+    };
+
+    onPlaceSelected = (place) => {
+        console.log('plc', place);
+        const address = place.formatted_address,
+            addressArray = place.address_components,
+            city = this.getCity(addressArray),
+            area = this.getArea(addressArray),
+            state = this.getState(addressArray),
+            latValue = place.geometry.location.lat(),
+            lngValue = place.geometry.location.lng();
+
+        console.log('latvalue', latValue)
+        console.log('lngValue', lngValue)
+
+        // Set these values in the state.
+        this.setState({
+            address: (address) ? address : '',
+            area: (area) ? area : '',
+            city: (city) ? city : '',
+            state: (state) ? state : '',
+            markerPosition: {
+                lat: latValue,
+                lng: lngValue
+            },
+            mapPosition: {
+                lat: latValue,
+                lng: lngValue
+            },
+        })
+    };
+
     // const AsyncMap = compose(
     //     withProps({
     //         googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyALVjLwOIM1gf7EzdJJVmWLKdLP-yZGTcw&v=3.exp&libraries=geometry,drawing,places",
